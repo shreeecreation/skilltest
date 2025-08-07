@@ -49,7 +49,10 @@ class EnergyTempChartState extends State<EnergyTempChart>
   Future<void> _loadDataFromJson() async {
     try {
       // Load the JSON file from assets
-      final String response = await rootBundle.loadString('/entry_data.json');
+      final String response = await rootBundle.loadString(
+        // 'assets/data/entry_data.json', // this is for hosting in firebase
+        'data/entry_data.json', // this is for local testing
+      );
       final Map<String, dynamic> data = json.decode(response);
 
       // Parse the data points
