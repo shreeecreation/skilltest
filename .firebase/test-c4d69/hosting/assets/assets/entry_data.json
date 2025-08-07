@@ -1,0 +1,414 @@
+{
+  "data_points": [
+    {
+      "temperature": -2,
+      "energy": 320,
+      "year": 2024
+    },
+    {
+      "temperature": 0,
+      "energy": 315,
+      "year": 2024
+    },
+    {
+      "temperature": 3,
+      "energy": 310,
+      "year": 2024
+    },
+    {
+      "temperature": 8,
+      "energy": 285,
+      "year": 2024
+    },
+    {
+      "temperature": 12,
+      "energy": 175,
+      "year": 2024
+    },
+    {
+      "temperature": 15,
+      "energy": 125,
+      "year": 2024
+    },
+    {
+      "temperature": 18,
+      "energy": 95,
+      "year": 2024
+    },
+    {
+      "temperature": 22,
+      "energy": 75,
+      "year": 2024
+    },
+    {
+      "temperature": 14,
+      "energy": 240,
+      "year": 2024
+    },
+    {
+      "temperature": 16,
+      "energy": 220,
+      "year": 2024
+    },
+    {
+      "temperature": 13,
+      "energy": 400,
+      "year": 2024
+    },
+    {
+      "temperature": 9,
+      "energy": 375,
+      "year": 2024
+    },
+    {
+      "temperature": -5,
+      "energy": 425,
+      "year": 2025
+    },
+    {
+      "temperature": -4,
+      "energy": 205,
+      "year": 2025
+    },
+    {
+      "temperature": -3,
+      "energy": 220,
+      "year": 2025
+    },
+    {
+      "temperature": -2,
+      "energy": 340,
+      "year": 2025
+    },
+    {
+      "temperature": -1,
+      "energy": 360,
+      "year": 2025
+    },
+    {
+      "temperature": 0,
+      "energy": 350,
+      "year": 2025
+    },
+    {
+      "temperature": 1,
+      "energy": 290,
+      "year": 2025
+    },
+    {
+      "temperature": 2,
+      "energy": 310,
+      "year": 2025
+    },
+    {
+      "temperature": 3,
+      "energy": 330,
+      "year": 2025
+    },
+    {
+      "temperature": 4,
+      "energy": 355,
+      "year": 2025
+    },
+    {
+      "temperature": 5,
+      "energy": 390,
+      "year": 2025
+    },
+    {
+      "temperature": 6,
+      "energy": 445,
+      "year": 2025
+    },
+    {
+      "temperature": 7,
+      "energy": 325,
+      "year": 2025
+    },
+    {
+      "temperature": 8,
+      "energy": 285,
+      "year": 2025
+    },
+    {
+      "temperature": 9,
+      "energy": 275,
+      "year": 2025
+    },
+    {
+      "temperature": 10,
+      "energy": 295,
+      "year": 2025
+    },
+    {
+      "temperature": 11,
+      "energy": 250,
+      "year": 2025
+    },
+    {
+      "temperature": 12,
+      "energy": 190,
+      "year": 2025
+    },
+    {
+      "temperature": 13,
+      "energy": 155,
+      "year": 2025
+    },
+    {
+      "temperature": 14,
+      "energy": 145,
+      "year": 2025
+    },
+    {
+      "temperature": 15,
+      "energy": 125,
+      "year": 2025
+    },
+    {
+      "temperature": 16,
+      "energy": 115,
+      "year": 2025
+    },
+    {
+      "temperature": 17,
+      "energy": 105,
+      "year": 2025
+    },
+    {
+      "temperature": 18,
+      "energy": 95,
+      "year": 2025
+    },
+    {
+      "temperature": 19,
+      "energy": 85,
+      "year": 2025
+    },
+    {
+      "temperature": 20,
+      "energy": 75,
+      "year": 2025
+    },
+    {
+      "temperature": 21,
+      "energy": 65,
+      "year": 2025
+    },
+    {
+      "temperature": 22,
+      "energy": 55,
+      "year": 2025
+    },
+    {
+      "temperature": 1.5,
+      "energy": 295,
+      "year": 2025
+    },
+    {
+      "temperature": 2.5,
+      "energy": 320,
+      "year": 2025
+    },
+    {
+      "temperature": 3.5,
+      "energy": 305,
+      "year": 2025
+    },
+    {
+      "temperature": 4.5,
+      "energy": 315,
+      "year": 2025
+    },
+    {
+      "temperature": 5.5,
+      "energy": 295,
+      "year": 2025
+    },
+    {
+      "temperature": 6.5,
+      "energy": 285,
+      "year": 2025
+    },
+    {
+      "temperature": 7.5,
+      "energy": 275,
+      "year": 2025
+    },
+    {
+      "temperature": 8.5,
+      "energy": 265,
+      "year": 2025
+    },
+    {
+      "temperature": 9.5,
+      "energy": 255,
+      "year": 2025
+    },
+    {
+      "temperature": 10.5,
+      "energy": 225,
+      "year": 2025
+    },
+    {
+      "temperature": 11.5,
+      "energy": 195,
+      "year": 2025
+    },
+    {
+      "temperature": 12.5,
+      "energy": 175,
+      "year": 2025
+    },
+    {
+      "temperature": 13.5,
+      "energy": 165,
+      "year": 2025
+    },
+    {
+      "temperature": 14.5,
+      "energy": 155,
+      "year": 2025
+    },
+    {
+      "temperature": 15.5,
+      "energy": 135,
+      "year": 2025
+    },
+    {
+      "temperature": 16.5,
+      "energy": 125,
+      "year": 2025
+    },
+    {
+      "temperature": 17.5,
+      "energy": 115,
+      "year": 2025
+    },
+    {
+      "temperature": 18.5,
+      "energy": 105,
+      "year": 2025
+    },
+    {
+      "temperature": 19.5,
+      "energy": 95,
+      "year": 2025
+    },
+    {
+      "temperature": -1.5,
+      "energy": 315,
+      "year": 2025
+    },
+    {
+      "temperature": -0.5,
+      "energy": 295,
+      "year": 2025
+    },
+    {
+      "temperature": 0.5,
+      "energy": 325,
+      "year": 2025
+    },
+    {
+      "temperature": -4.5,
+      "energy": 175,
+      "year": 2025
+    },
+    {
+      "temperature": -3.5,
+      "energy": 165,
+      "year": 2025
+    },
+    {
+      "temperature": -2.5,
+      "energy": 195,
+      "year": 2025
+    },
+    {
+      "temperature": -1.5,
+      "energy": 215,
+      "year": 2025
+    },
+    {
+      "temperature": -0.5,
+      "energy": 235,
+      "year": 2025
+    },
+    {
+      "temperature": 0.5,
+      "energy": 245,
+      "year": 2025
+    },
+    {
+      "temperature": 1.5,
+      "energy": 225,
+      "year": 2025
+    },
+    {
+      "temperature": 2.5,
+      "energy": 205,
+      "year": 2025
+    },
+    {
+      "temperature": 3.5,
+      "energy": 185,
+      "year": 2025
+    },
+    {
+      "temperature": 4.5,
+      "energy": 175,
+      "year": 2025
+    },
+    {
+      "temperature": 5.5,
+      "energy": 165,
+      "year": 2025
+    },
+    {
+      "temperature": 6.5,
+      "energy": 155,
+      "year": 2025
+    },
+    {
+      "temperature": 7.5,
+      "energy": 145,
+      "year": 2025
+    },
+    {
+      "temperature": 8.5,
+      "energy": 135,
+      "year": 2025
+    },
+    {
+      "temperature": 9.5,
+      "energy": 125,
+      "year": 2025
+    },
+    {
+      "temperature": 10.5,
+      "energy": 115,
+      "year": 2025
+    },
+    {
+      "temperature": 11.5,
+      "energy": 105,
+      "year": 2025
+    },
+    {
+      "temperature": 12.5,
+      "energy": 95,
+      "year": 2025
+    },
+    {
+      "temperature": 13.5,
+      "energy": 85,
+      "year": 2025
+    },
+    {
+      "temperature": 14.5,
+      "energy": 75,
+      "year": 2025
+    }
+  ]
+}

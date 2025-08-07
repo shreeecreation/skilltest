@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Messages collection rules
+    match /messages/{messageId} {
+      // Allow anyone to read messages
+      allow read: if true;
+      
+      // Allow anyone to create messages, but validate the data
+      allow create: if request.auth == null || request.auth != null
+        && validateMessage();
+      
+      // Don't allow updates or deletes of messages
+      allow update, delete: if false;
+    }
+    
+    // Typing indicators collection rules
+    match /typing_indicators/{userId} {
+      // Allow anyone to read typing indicators
+      allow read: if true;
+      
+      // Allow anyone to create/update their own typing indicator
+      allow create, update: if request.auth == null || request.auth != null
+        && validateTypingIndicator();
+      
+      // Allow anyone to delete typing indicators (for cleanup)
+      allow delete: if true;
+    }
+    
+    // Validation functions
+    function validateMessage() {
+      let data = request.resource.data;
+      return data.keys().hasAll(['text', 'senderName', 'timestamp'])
+        && data.text is string
+        && data.text.size() > 0
+        && data.text.size() <= 1000
+        && data.senderName is string
+        && data.senderName.size() > 0
+        && data.senderName.size() <= 50
+        && data.timestamp is timestamp;
+    }
+    
+    function validateTypingIndicator() {
+      let data = request.resource.data;
+      return data.keys().hasAll(['userName', 'lastTyped'])
+        && data.userName is string
+        && data.userName.size() > 0
+        && data.userName.size() <= 50
+        && data.lastTyped is timestamp;
+    }
+  }
+}
